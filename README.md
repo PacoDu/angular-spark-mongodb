@@ -5,7 +5,7 @@ version 0.11.1.
 
 ## Deployement from git
 
-Run `git clone git@github.com:PacoDu/friends.git && cd friends && git init && sudo npm install && bower install && grunt` to deploy sources, install dependencies and initialize a git repo.
+Run `git clone git@github.com:PacoDu/friends.git && cd friends && git init && sudo npm install && bower install && grunt` to deploy sources and install dependencies.
 
 ## Build & development
 
