@@ -1,4 +1,7 @@
-{
-  "username" : "paco",
-  "password" : "toto"
-}
+[
+  {"name" : "paco", "username" : "toto"},
+  {"name" : "remi", "username" : "terminator"},
+  {"name" : "julie", "username" : "lily"},
+  {"name" : "gildas", "username" : "weedy"},
+  {"name" : "theo", "username" : "darky"}
+]

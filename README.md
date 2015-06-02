@@ -1,11 +1,9 @@
 # friends
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.11.1.
 
 ## Requirements
 
-In order to take part in this project you will only need to have `npm`, `bower`, `gradle` and IntelliJ IDEA. 
+In order to take part in this project you will need to have `npm`, `bower`, `gradle`, `mongodb` and IntelliJ IDEA. 
 
 ## Deployement from git
 
@@ -18,13 +16,18 @@ Run `git clone git@github.com:PacoDu/friends.git && cd friends && git init && su
 3. Make project.
 4. Edit run/debug configuration, add an Application and target main class spark.
 
+### Step 3
+To import data in mongodb use `mongoimport --db DBNAME --collection MODEL --file data/data_sample/DATA.json --jsonArray`.
+
 ## Build & development
 
 #### AngularJS
-Run `grunt` for building and `grunt serve` for preview.
+Run `grunt` for building and `grunt serve` for preview. 
+Node.js server listen on http://localhost:9000.
 
 #### Sparkjava
 Run from IntelliJ to start server.
+Jetty server listen on http://localhost:8080.
 
 #### MongoDB
 Run `mongod -dbpath absolutePathTo/data/db`.
