@@ -24,7 +24,10 @@ Run `git clone git@github.com:PacoDu/friends.git && cd friends && git init && su
 Run `grunt` for building and `grunt serve` for preview.
 
 #### Sparkjava
-Run from IntelliJ
+Run from IntelliJ to start server.
+
+#### MongoDB
+Run `mongod -dbpath absolutePathTo/data/db`.
 
 ## Testing
 
