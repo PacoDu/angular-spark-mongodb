@@ -8,7 +8,13 @@ In order to take part in this project you will need to have `npm`, `bower`, `gra
 ## Deployement from git
 
 #### Step 1
-Run `git clone git@github.com:PacoDu/friends.git && cd friends && git init && sudo npm install && bower install && grunt` to deploy sources, install dependencies and initialize the git repo.
+Run the following cmd to deploy sources, install dependencies and initialize the git repo.
+```
+git clone git@github.com:PacoDu/friends.git
+cd friends
+git init
+sudo npm install && bower install && grunt
+```
 
 #### Step 2
 1. Import project with IntelliJ as gradle project.
