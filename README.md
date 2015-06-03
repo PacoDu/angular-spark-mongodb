@@ -1,4 +1,5 @@
-# friends
+# AngularJS Sparkjava MongoDB archetype
+This repo is a ready to go archetype front-end and back-end to built webapp using AngularJS Sparkjava and MongoDB.
 
 
 ## Requirements
@@ -8,9 +9,9 @@ In order to take part in this project you will need to have `npm`, `bower`, `gra
 ## Deployement from git
 
 #### Step 1
-Run the following cmd to deploy sources, install dependencies and initialize the git repo.
+Run the following cmd to deploy sources, install dependencies and initialize a git repo.
 ```
-git clone git@github.com:PacoDu/friends.git
+git clone git@github.com:PacoDu/angular-spark-mongodb.git
 cd friends
 git init
 sudo npm install && bower install && grunt
