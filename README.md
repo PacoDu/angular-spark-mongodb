@@ -23,11 +23,11 @@ To import data in mongodb use `mongoimport --db DBNAME --collection MODEL --file
 
 #### AngularJS
 Run `grunt` for building and `grunt serve` for preview. 
-Node.js server listen on http://localhost:9000.
+Node.js server listen on `http://localhost:9000`.
 
 #### Sparkjava
 Run from IntelliJ to start server.
-Jetty server listen on http://localhost:8080.
+Jetty server listen on `http://localhost:8080`.
 
 #### MongoDB
 Run `mongod -dbpath absolutePathTo/data/db`.
