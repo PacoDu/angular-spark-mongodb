@@ -4,7 +4,7 @@ This repo is a ready to go archetype front-end and back-end to built webapp usin
 
 ## Requirements
 
-In order to take part in this project you will need to have `npm`, `bower`, `gradle`, `mongodb` and IntelliJ IDEA. 
+In order to take part in this project you will need to have Node.js, MongoDB and IntelliJ IDEA. 
 
 ## Deployement from git
 
